@@ -26,7 +26,7 @@ Public Class Form1
                     cmd.Parameters.AddWithValue("@No", If(IsNumeric(TxtNo.Text) AndAlso TxtNo.Text <> "", CInt(TxtNo.Text), DBNull.Value))
                     cmd.Parameters.AddWithValue("@LotSize", If(IsNumeric(TxtLotsize.Text) AndAlso TxtLotsize.Text <> "", CDec(TxtLotsize.Text), DBNull.Value))
 
-                    ' Add other parameters as strings
+
                     cmd.Parameters.AddWithValue("@DateOfReceipt", TxtDateofreceipt.Text)
                     cmd.Parameters.AddWithValue("@ClientsName", TxtClientsname.Text)
                     cmd.Parameters.AddWithValue("@NatureOfProject", TxtNatureofproject.Text)
@@ -209,5 +209,6 @@ Public Class Form1
         End Try
 
     End Sub
+
 
 End Class

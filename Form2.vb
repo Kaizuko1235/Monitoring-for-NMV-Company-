@@ -43,4 +43,5 @@ Public Class Form2
     Private Sub BtnExit_Click(sender As Object, e As EventArgs) Handles BtnExit.Click
         Application.Exit()
     End Sub
+
 End Class

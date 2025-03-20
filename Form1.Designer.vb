@@ -289,21 +289,21 @@ Partial Class Form1
         '
         'Cmbbencumb
         '
-        Me.Cmbbencumb.DataSource = Me.MonitoringtbBindingSource
         Me.Cmbbencumb.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Cmbbencumb.FormattingEnabled = True
+        Me.Cmbbencumb.Items.AddRange(New Object() {"Yes ", "No"})
         Me.Cmbbencumb.Location = New System.Drawing.Point(101, 482)
         Me.Cmbbencumb.Name = "Cmbbencumb"
-        Me.Cmbbencumb.Size = New System.Drawing.Size(42, 21)
+        Me.Cmbbencumb.Size = New System.Drawing.Size(61, 21)
         Me.Cmbbencumb.TabIndex = 19
         '
         'Cmbbtechnicaldescription
         '
-        Me.Cmbbtechnicaldescription.DataSource = Me.MonitoringtbBindingSource
         Me.Cmbbtechnicaldescription.FormattingEnabled = True
+        Me.Cmbbtechnicaldescription.Items.AddRange(New Object() {"Yes", "No"})
         Me.Cmbbtechnicaldescription.Location = New System.Drawing.Point(165, 415)
         Me.Cmbbtechnicaldescription.Name = "Cmbbtechnicaldescription"
-        Me.Cmbbtechnicaldescription.Size = New System.Drawing.Size(43, 21)
+        Me.Cmbbtechnicaldescription.Size = New System.Drawing.Size(59, 21)
         Me.Cmbbtechnicaldescription.TabIndex = 20
         '
         'TxtDateofreceipt
@@ -452,9 +452,9 @@ Partial Class Form1
         '
         Me.BtnLogout.Cursor = System.Windows.Forms.Cursors.AppStarting
         Me.BtnLogout.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnLogout.Location = New System.Drawing.Point(918, 80)
+        Me.BtnLogout.Location = New System.Drawing.Point(908, 79)
         Me.BtnLogout.Name = "BtnLogout"
-        Me.BtnLogout.Size = New System.Drawing.Size(68, 26)
+        Me.BtnLogout.Size = New System.Drawing.Size(80, 26)
         Me.BtnLogout.TabIndex = 36
         Me.BtnLogout.Text = "LOGOUT"
         Me.BtnLogout.UseVisualStyleBackColor = True
